@@ -1,0 +1,44 @@
+Guide for the Financial Assistant Web App
+
+1. Prerequisites
+----------------
+To run this app seamlessly and interactively, you must use a local web server. Browsers block JavaScript module imports from local files for security reasons.
+
+2. How to Start a Local Server
+------------------------------
+You can use any of the following methods:
+
+- **VS Code Live Server Extension**:
+	1. Install the "Live Server" extension in VS Code.
+	2. Right-click `FC.html` and select "Open with Live Server".
+	3. The app will open in your browser at `http://localhost:PORT/FC.html`.
+
+- **Python (if installed)**:
+	1. Open a terminal in the project folder.
+	2. Run: `python -m http.server 8000`
+	3. Open `http://localhost:8000/FC.html` in your browser.
+
+- **Node.js (if installed)**:
+	1. Install http-server: `npm install -g http-server`
+	2. Run: `http-server`
+	3. Open the provided local URL in your browser.
+
+3. API Keys
+-----------
+API keys for Hugging Face and Gemini are already set in `aiApis.js`. No need to edit the HTML file for keys.
+
+4. How to Use
+-------------
+- Open the app in your browser using one of the methods above.
+- Enter your financial question in the chat input box.
+- Select your preferred AI provider (Gemini or Hugging Face).
+- Click "Send" or press Enter to get instant financial advice.
+- Adjust your income and expenses in the calculator to see live savings and rate updates.
+
+5. Troubleshooting
+------------------
+- If the chat does not work, make sure you are running from a local server (not opening the HTML file directly).
+- Check the browser console (F12) for errors.
+- Ensure your internet connection is active for API calls.
+
+Enjoy a seamless and interactive financial assistant experience!
