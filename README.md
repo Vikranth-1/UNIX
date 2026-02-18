@@ -22,10 +22,3 @@ A stylish, interactive financial assistant powered by Google's Gemini AI. This t
 > [!NOTE]  
 > Since this is a client-side application, ensure you keep your API key secure if deploying publicly. For production, it's recommended to use a backend proxy.
 
-## 📸 Preview
-
-![Financial Assistant Preview](preview_placeholder.png)
-
-## 📄 License
-
-MIT License.
